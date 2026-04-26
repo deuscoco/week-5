@@ -7,8 +7,8 @@ Dibangun menggunakan:
 
 ---
 
-## 🚀 Live Demo
-🔗 https://script.google.com/macros/s/AKfycbzONK6xaYfOBj7XiMUfpG97XZ_hO3HD7pwVVz6uBBhaV8xM8y9UZg2IjvaNIzRPpX6RQQ/exec
+## 📖 Article (Medium)
+🔗 https://medium.com/@amadeusrizz/buku-food-digital-web-app-dengan-google-apps-script-557c10082897
 
 ---
 
