@@ -1,175 +1,121 @@
-# 🌐 Website Toko Digital - Otomatis & Siap Pakai
-
-Website jualan produk digital yang **fully otomatis** dan profesional.  
-Dibangun menggunakan:
-
+# 🌐 Digital Store Website - Automated & Ready to Use
+A digital product sales website that is **fully automated** and professional.  
+Built using:
 > **Google Apps Script × Midtrans Payment Gateway × Google Sheets**
-
 ---
-
 ## 📖 Article (Medium)
 🔗 https://medium.com/@amadeusrizz/buku-food-digital-web-app-dengan-google-apps-script-557c10082897
-
 ---
-
 ## 📌 Overview
-Website ini adalah solusi lengkap untuk menjual produk digital tanpa ribet:
-
-- ❌ Tanpa hosting berbayar  
-- 💳 Pembayaran otomatis  
-- 📊 Data masuk ke Google Sheets  
-- 📧 Email konfirmasi otomatis  
-
-> **Satu website. Semua berjalan otomatis. Kamu tinggal terima uang.**
-
+This website is a complete, hassle-free solution for selling digital products:
+- ❌ No paid hosting required  
+- 💳 Automatic payments  
+- 📊 Data flows into Google Sheets  
+- 📧 Automatic confirmation emails  
+> **One website. Everything runs automatically. You just collect the money.**
 ---
-
 ## 📦 What You Get
-
-- 📄 `dashboard.html` → Tampilan website (frontend)
+- 📄 `dashboard.html` → Website display (frontend)
 - ⚙️ `Kode.gs` → Backend & logic
-- 🔧 `appsscript.json` → Konfigurasi Apps Script
-- 📋 Panduan setup lengkap (step-by-step)
-
+- 🔧 `appsscript.json` → Apps Script configuration
+- 📋 Complete step-by-step setup guide
 ---
-
 ## 🏗️ System Architecture
-
-- 🌐 **Frontend** → HTML (Landing Page + Form Beli)
+- 🌐 **Frontend** → HTML (Landing Page + Purchase Form)
 - ⚙️ **Backend** → Google Apps Script
 - 💳 **Payment** → Midtrans Snap
 - 📊 **Database** → Google Sheets
 - 📧 **Notification** → Gmail / MailApp
-
 ---
-
 ## ⚙️ Features
-
 ### 🛍️ Core Features
-- Halaman toko lengkap (hero, paket, FAQ)
-- Form pembelian dengan validasi otomatis
-- Integrasi Midtrans (12+ metode pembayaran)
-- Webhook pembayaran otomatis
-- Database order di Google Sheets
-- Email konfirmasi otomatis
-
+- Complete store page (hero section, packages, FAQ)
+- Purchase form with automatic validation
+- Midtrans integration (12+ payment methods)
+- Automatic payment webhook
+- Order database in Google Sheets
+- Automatic confirmation emails
 ### 📊 Additional Features
-- Live status order (success / pending)
-- Halaman sukses & pending custom
-- SSL & keamanan transaksi
-
+- Live order status (success / pending)
+- Custom success & pending pages
+- SSL & transaction security
 ---
-
 ## 🔄 Workflow (Fully Automated)
-
-1. User klik tombol beli  
-2. Isi data (nama, WA, email)  
-3. Sistem simpan ke Google Sheets  
-4. Midtrans tampilkan popup pembayaran  
-5. User bayar  
-6. Midtrans kirim webhook  
-7. Status otomatis update  
-8. Email konfirmasi terkirim  
-
-> 💡 **Zero manual effort — semua otomatis**
-
+1. User clicks the buy button  
+2. Fills in their details (name, WhatsApp, email)  
+3. The system saves the data to Google Sheets  
+4. Midtrans displays the payment popup  
+5. User makes the payment  
+6. Midtrans sends a webhook  
+7. The status updates automatically  
+8. A confirmation email is sent  
+> 💡 **Zero manual effort — everything is automatic**
 ---
-
 ## 💼 Benefits
-
-- 💰 Terima pembayaran 24/7  
-- ⚡ Setup sekali, jalan terus  
-- 📱 Bisa dikelola dari HP  
-- 🔄 Mudah diubah untuk produk lain  
-- 📈 Skalabel tanpa biaya tambahan  
-
+- 💰 Accept payments 24/7  
+- ⚡ Set it up once, runs continuously  
+- 📱 Can be managed from a phone  
+- 🔄 Easy to adapt for other products  
+- 📈 Scalable at no extra cost  
 ---
-
 ## 📊 Key Highlights
-
-- 💸 **Rp 0** biaya hosting  
-- 💳 **12+ metode pembayaran**  
-- 🤖 **100% otomatis**  
-
+- 💸 **Rp 0** hosting cost  
+- 💳 **12+ payment methods**  
+- 🤖 **100% automated**  
 ---
-
 ## 🆚 Comparison
-
 | Feature | This Project | Marketplace | Wordpress | Manual |
 |--------|------------|------------|----------|--------|
-| Biaya | ✅ Gratis | ❌ Fee | ⚠️ Hosting | ✅ Gratis |
-| Otomatis | ✅ Full | ✅ | ⚠️ Setup | ❌ |
+| Cost | ✅ Free | ❌ Fee | ⚠️ Hosting | ✅ Free |
+| Automated | ✅ Full | ✅ | ⚠️ Setup | ❌ |
 | Email | ✅ Auto | ❌ | ⚠️ Plugin | ❌ |
 | Database | ✅ Own | ❌ | ✅ | ❌ |
 | Branding | ✅ Full | ⚠️ | ✅ | ⚠️ |
-
 ---
-
 ## 🖥️ UI Overview
-
 ### 🏠 Landing Page
 - Hero + pricing
-- Deskripsi produk
-- FAQ & testimonial
-
-### 📝 Form Pembelian
-- Popup modal
-- Input: Nama, WA, Email
-- Validasi real-time
-
+- Product description
+- FAQ & testimonials
+### 📝 Purchase Form
+- Modal popup
+- Input: Name, WhatsApp, Email
+- Real-time validation
 ### ✅ Success Page
-- Status LUNAS
+- PAID status
 - Order ID
-- Info pengiriman
-
+- Delivery information
 ### ⏳ Pending Page
-- Menunggu pembayaran
-- Update otomatis
-
+- Awaiting payment
+- Automatic updates
 ---
-
 ## 🛠️ Tech Stack
-
 - **Google Apps Script** → Backend (serverless)
 - **Midtrans** → Payment Gateway
 - **Google Sheets** → Database
 - **HTML, CSS, JS** → Frontend
-
 ---
-
 ## 🎯 Use Case
-
-Cocok untuk jual:
-- Ebook  
-- Template  
-- Course  
-- Preset  
-- Produk digital lainnya  
-
+Great for selling:
+- Ebooks  
+- Templates  
+- Courses  
+- Presets  
+- Other digital products  
 ---
-
 ## 📥 Getting Started
-
-1. Buat Google Sheets  
-2. Upload file Apps Script  
-3. Setup Midtrans (Server Key & Client Key)  
-4. Deploy Web App  
-5. Test transaksi  
-
+1. Create a Google Sheets  
+2. Upload the Apps Script files  
+3. Set up Midtrans (Server Key & Client Key)  
+4. Deploy the Web App  
+5. Test a transaction  
 ---
-
 ## 📞 Support
-
-Jika ada kendala setup:
+If you run into setup issues:
 - WhatsApp: +62 812-3041-862  
-
 ---
-
 ## ⭐ Final Notes
-
-> **Satu kali setup. Jalan selamanya. Uang masuk otomatis.**
-
+> **Set it up once. It runs forever. Money comes in automatically.**
 ---
-
 ### ✨ Powered by
 Google Apps Script · Midtrans · Google Sheets
